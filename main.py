@@ -8,9 +8,11 @@ elif operator == '-':
     print('The subtraction is',num1-num2)
 elif operator == '*':
     print('The multiplication is',num1*num2)
+elif operator == '/':
+    print('The multiplication is',num1/num2)
 else:
-    if operator == '/':
-     print('The division is',num1/num2)
+    print('Invalid operator')
+
 
 
 
